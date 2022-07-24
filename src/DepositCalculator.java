@@ -16,7 +16,7 @@ public class DepositCalculator {
         return Math.round(value * scale) / scale;
     }
 
-    void calculationOfSavingsOnDeposit() {
+    void calculateOfSavingsOnDeposit() {
         int period;
         int typeDeposit;
         int amount;
@@ -38,6 +38,6 @@ public class DepositCalculator {
     }
 
     public static void main(String[] args) {
-        new DepositCalculator().calculationOfSavingsOnDeposit();
+        new DepositCalculator().calculateOfSavingsOnDeposit();
     }
 }
